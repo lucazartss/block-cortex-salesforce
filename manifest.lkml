@@ -1,22 +1,20 @@
 
 constant: CONNECTION_NAME {
-  value: "cortex"
+  value: "rz_sap"
   export: override_required
 }
 
 
 constant: GCP_PROJECT {
-  value: "GCP Project Name"
+  value: "vibra-data-hub-dev"
   export: override_required
 }
 
 
 constant: SFDC_DATASET {
-  value: "Reporting Dataset Name"
+  value: "REPORTING"
   export: override_required
 }
 
 
-
-
-
+new_lookml_runtime: no
