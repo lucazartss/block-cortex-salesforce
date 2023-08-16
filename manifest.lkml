@@ -1,20 +1,20 @@
 
 constant: CONNECTION_NAME {
-  value: "rz_sap"
+  value: "prd_salesforce"
   export: override_required
 }
 
 
 constant: GCP_PROJECT {
-  value: "vibra-data-hub-dev"
+  value: "vibra-dtan-prd"
   export: override_required
 }
 
 
 constant: SFDC_DATASET {
-  value: "REPORTING"
+  value: "td_salesforce"
   export: override_required
 }
 
 
-new_lookml_runtime: no
+new_lookml_runtime: yes
