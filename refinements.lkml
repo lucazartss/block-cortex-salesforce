@@ -4,6 +4,7 @@ include: "/views/*view.lkml"
 
 
 
+
 explore: +case_management {
 
 
