@@ -3,7 +3,6 @@ include: "/models/cortex_salesforce*.lkml"
 include: "/views/*view.lkml"
 
 
-
 # view: +case_management {
 #   derived_table: {
 #     sql: SELECT
