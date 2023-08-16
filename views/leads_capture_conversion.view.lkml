@@ -44,9 +44,14 @@ view: leads_capture_conversion {
     sql: ${TABLE}.LeadFirstResponeDatestamp ;;
   }
 
+  # dimension: is_converted {
+  #   type: yesno
+  #   sql: ${TABLE}.IsLeadConverted ;;
+  # }
+
   dimension: is_converted {
     type: yesno
-    sql: ${TABLE}.IsLeadConverted ;;
+    sql: ${TABLE}.IsLeadConverted = "true" ;;
   }
 
   dimension_group: lead_converted {
@@ -310,7 +315,7 @@ view: leads_capture_conversion {
     }
   }
 
- 
+
 
 
   dimension: lead_owner_name {

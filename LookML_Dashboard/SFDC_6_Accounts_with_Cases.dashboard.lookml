@@ -711,3 +711,16 @@
     explore: case_management
     listens_to_filters: []
     field: case_management.case_origin
+  - name: Developer Name
+    title: Developer Name
+    type: field_filter
+    default_value: Premmia
+    allow_multiple_values: true
+    required: false
+    ui_config:
+      type: tag_list
+      display: popover
+    model: cortex_salesforce
+    explore: case_management
+    listens_to_filters: []
+    field: record_types_md.developer_name
