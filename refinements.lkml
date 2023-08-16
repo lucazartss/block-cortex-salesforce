@@ -22,3 +22,4 @@ explore: +case_management {
         fields: [record_types_md.developer_name]
       }
 }
+
