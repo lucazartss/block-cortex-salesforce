@@ -23,13 +23,10 @@ explore: +case_management {
       }
 }
 
-
 view: +leads_capture_conversion {
 
   dimension: is_converted {
     type: yesno
     sql: CAST(${TABLE}.IsLeadConverted AS STRING) = "true" ;;
   }
-
-
 }
